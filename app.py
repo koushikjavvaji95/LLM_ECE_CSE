@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-client = Groq(api_key=os.getenv("GROQ"))
+client = Groq(Grok_API_KEY=os.getenv("GROQ"))
 
 
 # Page config
